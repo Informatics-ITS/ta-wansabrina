@@ -34,25 +34,24 @@ Daftar dependensi:
    Tidak ada requirements.txt terpisah. Semua dependensi sudah disebutkan dan diinstal langsung di dalam masing-masing notebook menggunakan perintah pip.
 
 3. **Urutan Eksekusi Notebook**  
-   Notebook dijalankan secara **berurutan**:
+   Notebook dijalankan secara berurutan:
 
    1. **Notebook 1** – Fine-tuning klasifikasi citra otak.
    2. **Notebook 2** – Fine-tuning model image captioning.
    3. **Notebook 3** – Integrasi klasifikasi dan captioning menjadi satu sistem.
 
-   📌 **Catatan**: Jika ingin langsung menjalankan **Notebook 3**, tidak masalah karena model-model dari Notebook 1 dan 2 sudah diunggah ke Hugging Face dan otomatis akan diunduh saat notebook dijalankan.
+   📌 Catatan: Jika ingin langsung menjalankan Notebook 3, tidak masalah karena model-model dari Notebook 1 dan 2 sudah diunggah ke Hugging Face dan otomatis akan diunduh saat notebook dijalankan.
 
-4. **Atau Langsung Gunakan Demo Interaktif di Hugging Face Spaces**  
+4. **Alternatif: Langsung Gunakan Demo Interaktif di Hugging Face Spaces**  
    👉 [Coba Space Hugging Face di sini](https://huggingface.co/spaces/bombshelll/brain-hierarchical-captioning)
 
-   Jika ingin mencoba langsung, bisa menggunakan **test data** yang telah disediakan di folder berikut:  
+   Jika ingin mencoba langsung, bisa menggunakan test data yang telah disediakan di folder berikut:  
    📁 [Test Data](https://github.com/Informatics-ITS/ta-wansabrina/tree/main/Test%20Data)
 
 
 ## 📚 Dokumentasi Tambahan
 Berikut adalah rincian lengkap dari masing-masing notebook.
 - ### Notebook 1 – Fine-tuning Klasifikasi Otak
-
    Melatih model klasifikasi individual, diantaranya:
    * Abnormalitas otak
    * Modalitas citra (T1, T2, dll)
@@ -60,7 +59,6 @@ Berikut adalah rincian lengkap dari masing-masing notebook.
    * Jenis tumor (glioma, meningioma, dll)
 
    #### Model dan Dataset yang Digunakan
-
    | Kategori| Model Pretrained| Link Sumber Dataset|
    |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
    | Abnormalities    | [swin-brain-abnormalities-classification](https://huggingface.co/bombshelll/swin-brain-abnormalities-classification)        | [brain_normal_vs_abnormal](https://huggingface.co/datasets/bombshelll/brain_normal_vs_abnormal)                                                  |
@@ -73,7 +71,6 @@ Berikut adalah rincian lengkap dari masing-masing notebook.
    Melatih model image captioning berbasis **ViT + BioMedBERT** untuk menghasilkan deskripsi klinis dari citra otak.
 
    #### Model dan Dataset untuk Image Captioning
-
    | Dataset        | Model Pretrained                                                                                                 | Link Sumber Dataset                                                                                                  |
    |-----------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
    | ROCO-Brain      | [ViT_BioMedBERT_Captioning_ROCO](https://huggingface.co/bombshelll/ViT_BioMedBert_Captioning_ROCO)              | [Kaggle](https://www.kaggle.com/datasets/hieugiaosu/roco-brain), [Hugging Face](https://huggingface.co/datasets/bombshelll/rocobrain) |
