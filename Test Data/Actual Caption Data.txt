@@ -1,0 +1,8 @@
+Test Data 1 - PMC3219482_crg0005-0583-f01
+Actual Caption: "Axial MRI of the brain shows solid tumors in the right cerebral peduncle and in the left occipital lobe with surrounding cerebral edema."
+
+Test Data 2 - PMC3420442_CRIM.NM2011-361203.002
+Actual Caption: "Axial CT without contrast demonstrates right posterosuperior temporal lobe ill-defined clumped calcification."
+
+Test Data 3 - PMC5075467_PAMJ-24-256-g002
+Actual Caption: "T1-weighted axial MR image with contrast showing a thalamic ring-enhancing lesion in the left side of the brain"

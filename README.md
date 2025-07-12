@@ -42,8 +42,12 @@ Daftar dependensi:
 
    📌 **Catatan**: Jika ingin langsung menjalankan **Notebook 3**, tidak masalah karena model-model dari Notebook 1 dan 2 sudah diunggah ke Hugging Face dan otomatis akan diunduh saat notebook dijalankan.
 
-4. **Gunakan demo interaktif di Hugging Face Spaces**  
-   [Coba Space Hugging Face Disini](https://huggingface.co/spaces/bombshelll/brain-hierarchical-captioning?logs=container)
+4. **Atau Langsung Gunakan Demo Interaktif di Hugging Face Spaces**  
+   👉 [Coba Space Hugging Face di sini](https://huggingface.co/spaces/bombshelll/brain-hierarchical-captioning)
+
+   Jika ingin mencoba langsung, kamu bisa menggunakan **test data** yang telah disediakan di folder berikut:  
+   📁 [Test Data](https://github.com/Informatics-ITS/ta-wansabrina/tree/main/Test-Data)
+
 
 ## 📚 Dokumentasi Tambahan
 Berikut adalah rincian lengkap dari masing-masing notebook.
