@@ -45,8 +45,8 @@ Daftar dependensi:
 4. **Atau Langsung Gunakan Demo Interaktif di Hugging Face Spaces**  
    👉 [Coba Space Hugging Face di sini](https://huggingface.co/spaces/bombshelll/brain-hierarchical-captioning)
 
-   Jika ingin mencoba langsung, kamu bisa menggunakan **test data** yang telah disediakan di folder berikut:  
-   📁 [Test Data](https://github.com/Informatics-ITS/ta-wansabrina/tree/main/Test-Data)
+   Jika ingin mencoba langsung, bisa menggunakan **test data** yang telah disediakan di folder berikut:  
+   📁 [Test Data](https://github.com/Informatics-ITS/ta-wansabrina/tree/main/Test%20Data)
 
 
 ## 📚 Dokumentasi Tambahan
