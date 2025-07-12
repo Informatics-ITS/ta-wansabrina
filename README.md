@@ -30,12 +30,11 @@ Daftar dependensi:
    git clone https://github.com/Informatics-ITS/ta-wansabrina.git
    cd ta-wansabrina
    ```
-2. **Instalasi Dependensi**  
+2. **Dependensi**  
    Tidak ada requirements.txt terpisah. Semua dependensi sudah disebutkan dan diinstal langsung di dalam masing-masing notebook menggunakan perintah pip.
 
 3. **Urutan Eksekusi Notebook**  
    Notebook dijalankan secara berurutan:
-
    1. **Notebook 1** – Fine-tuning klasifikasi citra otak.
    2. **Notebook 2** – Fine-tuning model image captioning.
    3. **Notebook 3** – Integrasi klasifikasi dan captioning menjadi satu sistem.
@@ -67,8 +66,8 @@ Berikut adalah rincian lengkap dari masing-masing notebook.
    | Tumor Type       | [swin-brain-tumor-type-classification](https://huggingface.co/bombshelll/swin-brain-tumor-type-classification)              | [brain_14_tumor_classes](https://huggingface.co/datasets/bombshelll/brain_14_tumor_classes)                                                      |
 
 
-- ### Notebook 2 – Fine-tuning Image Captioning  
-   Melatih model image captioning berbasis **ViT + BioMedBERT** untuk menghasilkan deskripsi klinis dari citra otak.
+- ### Notebook 2 – Fine-tuning Model Image Captioning  
+   Melatih model image captioning berbasis ViT + BioMedBERT untuk menghasilkan deskripsi klinis dari citra otak.
 
    #### Model dan Dataset untuk Image Captioning
    | Dataset        | Model Pretrained                                                                                                 | Link Sumber Dataset                                                                                                  |
@@ -78,10 +77,10 @@ Berikut adalah rincian lengkap dari masing-masing notebook.
 
 - ### Notebook 3 – Integrasi Sistem Klasifikasi & Captioning  
    Notebook ini digunakan untuk melakukan beberapa hal:
-   * Menggabungkan hasil klasifikasi individual menjadi klasifikasi **berjenjang**.
-   * Mengekstraksi keyword dari hasil klasifikasi berjenjang
+   * Menggabungkan hasil klasifikasi individual menjadi klasifikasi berjenjang.
+   * Mengekstraksi keyword dari hasil klasifikasi berjenjang.
    * Menggunakan keyword tersebut pada proses generate caption menggunakan fine-tuned captioning model dari notebook 2.
-   * Melakukan **inference** dan **evaluasi** terhadap caption hasil gabungan tersebut.
+   * Melakukan inference dan evaluasi terhadap caption hasil gabungan tersebut.
 
 ## ⁉️ Pertanyaan?
 
