@@ -8,10 +8,16 @@
 
 ---
 
+## 🎯 Deskripsi Program
+
+Program ini merupakan sistem otomatis untuk interpretasi citra medis otak yang menggabungkan proses **klasifikasi berjenjang** dan **image captioning**. Melalui tahapan klasifikasi berjenjang (bertingkat), model ini mampu mengenali berbagai informasi penting dari citra medis, seperti modalitas pencitraan, orientasi bidang potong (plane), status abnormalitas, hingga tipe tumor secara spesifik. Selanjutnya, hasil klasifikasi tersebut diintegrasikan ke dalam proses captioning untuk menghasilkan deskripsi klinis yang lebih kontekstual dan informatif.
+
+---
+
 ## 📺 Demo Aplikasi  
 
 [![Demo Aplikasi](https://i.ytimg.com/vi/dLTcBD8TKZA/maxresdefault.jpg)](https://youtu.be/dLTcBD8TKZA)  
-*Klik gambar di atas untuk menonton demo, skip ke menit 4:10 jika ingin langsung melihat demonstrasi dashboard*
+*Klik gambar di atas untuk menonton demo, skip ke menit 4:10 jika ingin langsung melihat demonstrasi dashboard.*
 
 ---
 
@@ -22,7 +28,7 @@ Daftar dependensi:
   - Python 3.10+
   - pip
   - GPU (direkomendasikan)
-  - Akun [Hugging Face](https://huggingface.co/) (untuk menyimpan model, opsional jika hanya pakai lokal)
+  - Akun [Hugging Face](https://huggingface.co/) (untuk menyimpan model, opsional apabila model disimpan dan digunakan secara lokal)
 
 ### Langkah-langkah  
 1. **Clone Repository**  
@@ -47,9 +53,13 @@ Daftar dependensi:
    Jika ingin mencoba langsung, bisa menggunakan test data yang telah disediakan di folder berikut:  
    📁 [Test Data](https://github.com/Informatics-ITS/ta-wansabrina/tree/main/Test%20Data)
 
+   Output yang dihasilkan dari interface ini meliputi:
+   * **Keyword hasil klasifikasi berjenjang** yang digunakan sebagai input tambahan pada captioning.
+   * **Deskripsi otomatis (caption)** dari citra medis otak dengan dan tanpa integrasi klasifikasi.
+   * **Skor evaluasi BLEU** untuk membandingkan kualitas deskripsi.
 
 ## 📚 Dokumentasi Tambahan
-Berikut adalah rincian lengkap dari masing-masing notebook.
+Berikut adalah rincian lengkap dari masing-masing notebook:
 - ### Notebook 1 – Fine-tuning Klasifikasi Otak
    Melatih model klasifikasi individual, diantaranya:
    * Abnormalitas otak
@@ -87,3 +97,4 @@ Berikut adalah rincian lengkap dari masing-masing notebook.
 Hubungi:
 - Penulis: wansabrina.ws@gmail.com
 - Pembimbing Utama: riyanarto@if.its.ac.id
+- Ko-pembimbing: kelly@its.ac.id
