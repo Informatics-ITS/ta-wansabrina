@@ -10,8 +10,8 @@
 
 ## 📺 Demo Aplikasi  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
-*Klik gambar di atas untuk menonton demo*
+[![Demo Aplikasi](https://i.ytimg.com/vi/dLTcBD8TKZA/maxresdefault.jpg)](https://youtu.be/dLTcBD8TKZA)  
+*Klik gambar di atas untuk menonton demo, skip ke menit 4:10*
 
 ---
 
