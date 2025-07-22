@@ -11,7 +11,7 @@
 ## 📺 Demo Aplikasi  
 
 [![Demo Aplikasi](https://i.ytimg.com/vi/dLTcBD8TKZA/maxresdefault.jpg)](https://youtu.be/dLTcBD8TKZA)  
-*Klik gambar di atas untuk menonton demo, skip ke menit 4:10*
+*Klik gambar di atas untuk menonton demo, skip ke menit 4:10 jika ingin langsung melihat demonstrasi dashboard*
 
 ---
 
